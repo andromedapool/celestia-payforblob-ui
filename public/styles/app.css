@@ -1,0 +1,108 @@
+html {
+  background-color: rgba(12, 10, 29, 1) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+form label {
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.root-div {
+  background-color: rgba(12, 10, 29, 1);
+  min-height: 100vh;
+}
+
+.root-div .is-primary {
+  background-color: rgba(111, 76, 255, 0.88);
+  font-weight: 600;
+}
+
+.root-div .is-primary:hover {
+  background-color: rgba(60, 17, 232, 0.88);
+  transition: background-color 0.5s;
+}
+
+.button.is-primary[disabled],
+fieldset[disabled] .button.is-primary {
+  background-color: rgba(60, 17, 232, 0.88);
+  border: none;
+}
+
+.root-div .label {
+  color: white;
+}
+
+.root-div .input {
+  /* background-color: rgba(12, 10, 29, 1); */
+  /* background-color: #221952; */
+}
+
+.root-div .navbar {
+  background-color: rgba(12, 10, 29, 1);
+}
+
+.root-div .navbar .navbar-item img {
+  max-height: 3.75rem;
+}
+
+.div-result {
+  background-image: url("/images/bg.svg");
+  background-repeat: repeat;
+}
+
+.json {
+  overflow: auto;
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  white-space: pre-wrap; /* CSS3 browsers  */
+  white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+  white-space: -pre-wrap; /* Opera 4 thru 6 */
+  white-space: -o-pre-wrap; /* Opera 7 and up */
+  word-wrap: break-word;
+  width: 60%;
+}
+
+/* Modal */
+.modal-card-head {
+  background: none;
+  border: none;
+}
+
+.modal-card-body {
+  background: none;
+}
+
+.modal-card-foot {
+  background: none;
+  border: none;
+  display: block;
+}
+
+.stake-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.stake-button button {
+  background: rgba(111, 76, 255, 0.32) !important;
+}
+
+.modal-card {
+  background: rgb(40, 39, 55);
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+.modal-wrapper {
+  background: linear-gradient(rgba(111, 76, 255, 0.36) 0%, rgba(111, 76, 255, 0) 100%);
+}
+
+.modal-card-title {
+  text-shadow: 0 0 80px rgba(192, 219, 255, 0.48), 0 0 32px rgba(65, 120, 255, 0.24);
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.96);
+  font-weight: bold;
+}
